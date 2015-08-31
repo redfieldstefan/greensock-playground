@@ -1,0 +1,60 @@
+body {
+  width: 100%;
+  position: relative;
+  font-family: sans-serif;
+  background: #d8f9ec;
+}
+
+nav {
+  margin: 25px;
+  float: left;
+  position: fixed;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+  color: #d8f9ec;
+  float: left;
+  line-height: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#nav-options {
+  float: left;
+}
+
+#nav-options li {
+  color: red;
+  float: left;
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 25px;
+}
+
+  #nav-options li:hover {
+    color: green;
+    cursor: pointer;
+  }
+
+.demo {
+  display: none;
+  line-height: 150px;
+  height: 150px;
+  width: 150px;
+  background: tomato;
+  color: snow;
+}
+
+#grid {
+  float: left;
+  height: 500px;
+  width: 70%;
+  display: block;
+  margin-left: 15%;
+  background-color: snow;
+  display: none;
+}
